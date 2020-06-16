@@ -22,5 +22,21 @@ def consolidate_cart(cart)
   cart_1
 end
 
+# Alternative method
+
+# def consolidate_cart(cart)
+# item_name = Array.new(0)
+# new_cart = Array.new(0)
+# cart.each {|element|
+#     item_name << element[:item]
+#   }
+#   cart.each {|element|
+#       element[:count] = item_name.count(element[:item])
+#       new_cart << element
+#     }
+# new_cart.uniq!
+# new_cart
+# end
+
 
   
