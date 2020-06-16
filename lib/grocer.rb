@@ -30,10 +30,10 @@ end
 # cart.each {|element|
 #     item_name << element[:item]
 #   }
-#   cart.each {|element|
-#       element[:count] = item_name.count(element[:item])
-#       new_cart << element
-#     }
+# cart.each {|element|
+#     element[:count] = item_name.count(element[:item])
+#     new_cart << element
+#   }
 # new_cart.uniq!
 # new_cart
 # end
